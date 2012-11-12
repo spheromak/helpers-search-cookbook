@@ -14,10 +14,6 @@ you can Open up and mix these methods in other namespaces if needed
 
 # Methods
 ### scoped_search
-|args|type|default|
-|scope|strong| |
-|\*args| "standard search args" |
-|&block| Ruby Block |
 
 This wraps chef's search to add domain or environment awareness.
 
