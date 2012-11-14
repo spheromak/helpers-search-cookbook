@@ -27,9 +27,3 @@ module Helpers
   end
 end
 
-# this we want in recipe scope always
-class Chef
-  class Recipe
-    include Helpers::Search
-  end
-end

@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: search-helper
+# Cookbook Name:: helpers-search
 # Recipe:: default
 #
 #

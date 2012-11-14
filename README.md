@@ -1,8 +1,10 @@
-# earch-helper cookbook
+# helpers-search cookbook
 This recipe brings in a `Helpers::Search` module that adds/wrapps chefs search function.
 
 # Usage
-Include this recipe in your run_list, and `Chef::Recipe` namespace will get these methods.
+Include this recipe in your run_list, and mix into any class you wnat the methods in.
+* `helpers-search::mix_recipe` recipe is provde to mix into Chef::Recipe automatically. 
+
 
 you can Open up and mix these methods in other namespaces if needed
      
@@ -30,6 +32,8 @@ This wraps chef's search to add domain or environment awareness.
 ## default
   Does nothing, just makes sure the libs are loaded
 
+## mix_recipe
+  Add the methods to `Chef::Recipe` 
 
 # Author
 Author:: Jesse Nelson (<spheromak@gmail.com>)
